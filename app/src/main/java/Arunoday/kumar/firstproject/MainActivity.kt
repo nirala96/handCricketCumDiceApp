@@ -11,9 +11,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
-
-
-
     fun onButtonClicked(view: View) {
         val randomNumber=(1..6).random()
         textView.text=randomNumber.toString()
